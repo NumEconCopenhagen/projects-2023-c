@@ -1,9 +1,7 @@
-# \[Group name\]
+# \[C\]
 
 **Group members:**
-- A
-- B
-- C
+- wvf224
 
 This repository contains  
 1. Inaugural project. 
