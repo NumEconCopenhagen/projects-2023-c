@@ -43,25 +43,6 @@ def nullclines(param):
 
     return nullcline_k, nullcline_h
 
-def aevaluation(x):
-    """ Evaluates the model with concrete parameter values
-    
-    Args:
-        param : parameters
-
-    Returns:
-        Steady state values for k and h
-
-    """
-    kss = ((s_K**(1-phi) * s_H**phi) / ((n+g+delta+n*g)))**(1 / (1-alpha-phi))
-    hss = ((s_K**(alpha) * s_H**(1-alpha)) / ((n+g+delta+n*g)))**(1 / (1-alpha-phi))
-
-    # Turing solutions into Python functions
-    kss_func = sm.lambdify((s_K,s_H,g,n,delta,phi,alpha),kss)
-    hss_func = sm.lambdify((s_K,s_H,g,n,delta,phi,alpha),hss)
-
-    return kss_func, hss_func
-
 def capital(s_K, s_H, n, delta, alpha, phi, k0, h0, T, g):
     """
     Calculates the Solow-Human Capital model over time for given parameters
