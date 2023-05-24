@@ -1,8 +1,8 @@
 # Data analysis project
 
-Our project is titled **The US GDP and the Yield Curves** and is about the american GDP and yield curves.
+My project is titled **The US GDP and the Yield Curves** and is about the american GDP and yield curves.
 
-The **If you want to smooth out the business fluctuations it may be worth paying attention to the yield curves** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
+The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
 
 We apply the **following datasets**:
 'T10Y3MM', 'T10Y2YM','T10YFFM'
