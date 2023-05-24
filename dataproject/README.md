@@ -4,7 +4,7 @@ My project is titled **The US GDP and the Yield Curves** and is about the americ
 
 The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
 
-We apply the **following datasets**:
+I apply the **following datasets**:
 1. GDP (*FRED*) 
 1. T10Y3MM (*FRED*)
 1. T10Y2YM (*FRED*) 
