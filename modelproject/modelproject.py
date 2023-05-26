@@ -57,7 +57,7 @@ def capital(s_K, s_H, n, delta, alpha, phi, k0, h0, T, g):
         k0 (float): initial value of capital
         h0 (float): initial value of human capital
         T (int): number of time periods to simulate
-        g (float, optional): growth rate of technology
+        g (float): growth rate of technology
     
     Returns:
         k (numpy array): stock of capital over time
